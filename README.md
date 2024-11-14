@@ -1,3 +1,50 @@
+# Route API
+#### Route pour creer son user [ POST ]
+```bash
+http://localhost:3000/api/signup
+```
+```bash
+{
+    "username": "root",
+    "email": "root@root.com",
+    "password": "root"
+}
+```
+
+#### Route pour se connecter [ POST ]
+```bash
+http://localhost:3000/api/login
+```
+```bash
+{
+    "email": "root@root.com",
+    "password": "root"
+}
+```
+
+
+#### Route pour obtenir tous les films avec leurs notes [ GET ]
+```bash
+http://localhost:3000/api/movies
+```
+
+
+#### Route pour noter les films et ou modifier la note [ POST ]
+```bash
+http://localhost:3000/api/movies/rating
+```
+```bash
+{
+    "title": "The Shawshank Redemption",
+    "rating": 4
+}
+```
+
+#### Route pour supprimé un film [ DELETE ]
+```bash
+http://localhost:3000/api/movies
+```
+
 # ADDE BackEnd Test
 
 Welcome to the ADDE backend Technical Test. In this test, you will need to create a small backend application using the technologies that we at ADDE use in our daily routine.
